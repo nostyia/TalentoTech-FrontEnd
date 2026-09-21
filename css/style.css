@@ -127,7 +127,8 @@ body {
 }
 
 .main section article {
-  width: 33%;
+  width: 30%;
+  margin: 1em 0.5em;
 }
 
 .main {
@@ -150,10 +151,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-}
-
-.main section article {
-  width: 33%;
 }
 
 /* FOOTER */
@@ -210,4 +207,18 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.products article img {
+  width: 100%;
+  height: auto;
+}
+
+.products article h2 {
+  font-size: 1em;
+}
+
+.products article p {
+  font-size: 0.8em;
+  text-align: center;
 }
