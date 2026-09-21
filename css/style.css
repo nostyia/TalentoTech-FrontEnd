@@ -16,6 +16,7 @@ body {
   width: 100%;
   background-color: #efefef;
   box-shadow: 0 0 10px 0 #000;
+  padding: 0 1em;
 }
 
 .header__container .navbar {
@@ -25,9 +26,13 @@ body {
 }
 
 .header__container .navbar .logo {
-  width: 5em;
+  width: 4em;
   padding: 1em;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.header__container .navbar .logo:hover {
+  transform: scale(1.2);
 }
 
 .header__container .navbar .logo img {
@@ -69,6 +74,10 @@ body {
 }
 .header__container .navbar .github {
   padding: 1em;
+  transition: transform 0.3s ease;
+}
+.header__container .navbar .github:hover {
+  transform: scale(1.4);
 }
 /* MAIN */
 
