@@ -8,7 +8,51 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header__container">
+      <nav class="navbar">
+        <div class="logo"><img src="logo.png" alt="Logo" /></div>
+        <ul>
+          <li>
+            <a href="../index.html"><i class="fa-solid fa-house"></i>Inicio</a>
+          </li>
+          <li>
+            <a href="./productos.html"
+              ><i class="fa-solid fa-gift"></i>Productos</a
+            >
+          </li>
+          <li>
+            <a href="./contacto.html"
+              ><i class="fa-solid fa-envelope"></i>Contacto</a
+            >
+          </li>
+        </ul>
+        <div class="github">
+          <a href="https://github.com/nostyia/TalentoTech-FrontEnd"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="contact">
+        <form action="https://formspree.io/f/mljdrlgq" method="post">
+          <label for="nombre">Nombre</label>
+          <input type="name" name="name" placeholder="Juan Perez" />
+          <label for="email">Correo Electronico</label>
+          <input type="email" name="email" placeholder="juanperez@mail.com" />
+          <label for="message">Mensaje</label>
+          <textarea name="message" id=""></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>

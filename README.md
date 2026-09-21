@@ -7,3 +7,7 @@ Proyecto FrontEnd para curso de TalentoTech
 - **Frontend:** HTML
 - **Estilos:** CSS, Fuentes Google fonts, FontAwesome
 - **Interactividad:** JavaScript (Pendiente)
+
+## URL
+
+- *https://nostyia-frontend.netlify.app/*
