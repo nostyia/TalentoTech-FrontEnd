@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif, Impact;
+}
+
+body {
+  background-color: rgb(200, 200, 200);
+  font-size: 1.2em;
+}
+
+/* HEADER */
+.header__container {
+  height: auto;
+  width: 100%;
+  background-color: #efefef;
+  box-shadow: 0 0 10px 0 #000;
+}
+
+.header__container .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__container .navbar .logo {
+  width: 5em;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.header__container .navbar .logo img {
+  width: 100%;
+  height: auto;
+}
+
+.header__container .navbar ul {
+  display: flex;
+}
+
+.header__container .navbar ul li {
+  list-style: none;
+  padding: 0 0.6em;
+}
+
+.header__container .navbar ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.header__container .navbar ul li a:hover,
+.header__container .navbar ul li a:active,
+.header__container .navbar ul li a:focus {
+  border-bottom: 1px solid #000;
+}
+.header__container .navbar ul li a i {
+  margin-right: 0.2em;
+}
+.header__container .navbar .github {
+  padding: 1em;
+}
+/* MAIN */
+
+/* FOOTER */
