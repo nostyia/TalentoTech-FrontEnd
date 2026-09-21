@@ -222,3 +222,19 @@ body {
   font-size: 0.8em;
   text-align: center;
 }
+
+/* RESEÑAS */
+.reseñas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.reseñas article img {
+  width: 100%;
+  height: auto;
+}
+
+.reseñas article h2 {
+  font-size: 1em;
+}
