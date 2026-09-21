@@ -47,12 +47,23 @@ body {
 .header__container .navbar ul li a {
   text-decoration: none;
   color: #000;
+  position: relative;
 }
-.header__container .navbar ul li a:hover,
-.header__container .navbar ul li a:active,
-.header__container .navbar ul li a:focus {
-  border-bottom: 1px solid #000;
+/* transicion de enlaces al hacerle hover, el elemento "a" del padre debe tener position relative*/
+.header__container .navbar ul li a::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s ease-in-out;
 }
+.header__container .navbar ul li a:hover::after {
+  width: 100%;
+}
+
 .header__container .navbar ul li a i {
   margin-right: 0.2em;
 }
