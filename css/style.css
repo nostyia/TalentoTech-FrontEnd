@@ -224,11 +224,13 @@ body {
 }
 
 /* RESEÑAS */
-.reseñas {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+.main section.reseñas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
+}
+.main section.reseñas article {
+  width: auto;
 }
 .reseñas article img {
   width: 100%;
@@ -237,4 +239,15 @@ body {
 
 .reseñas article h2 {
   font-size: 1em;
+}
+
+.reseñas article span:before {
+  content: "- ";
+}
+
+@media (max-width: 768px) {
+  .main section.reseñas {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
 }
