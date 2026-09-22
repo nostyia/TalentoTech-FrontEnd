@@ -257,4 +257,10 @@ body {
   .contact {
     width: 100%;
   }
+  .logo {
+    width: auto;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
 }
